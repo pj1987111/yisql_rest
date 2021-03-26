@@ -5,6 +5,9 @@ import com.zhy.yisql.netty.rest.HttpContextHolder;
 import com.zhy.yisql.netty.rest.HttpResponse;
 import com.zhy.yisql.netty.rest.HttpStatus;
 
+import java.io.PrintWriter;
+import java.io.StringWriter;
+
 public class ExceptionController implements ExceptionHandler {
 
     /**
@@ -17,10 +20,10 @@ public class ExceptionController implements ExceptionHandler {
         if(e instanceof ResourceNotFoundException) {
             status = HttpStatus.NOT_FOUND;
         }
-        String errorMessage = e.getCause() == null ? "" : e.getCause().getMessage();
-        if(errorMessage == null) {
-            errorMessage = e.getMessage();
-        }
+        StringWriter sw = new StringWriter();
+        PrintWriter pw = new PrintWriter(sw);
+        e.printStackTrace(pw);
+        String errorMessage = sw.toString();
         HttpResponse response = HttpContextHolder.getResponse();
         response.write(status, errorMessage);
         response.closeChannel();

@@ -6,7 +6,7 @@
 
     <groupId>pj1987111</groupId>
     <artifactId>yisql_rest</artifactId>
-    <version>2.0</version>
+    <version>0.2.1</version>
 
     <dependencies>
         <dependency>
@@ -50,14 +50,24 @@
             </plugin>
         </plugins>
     </build>
+<!--    <distributionManagement>-->
+<!--        <snapshotRepository>-->
+<!--            <id>sonatype-nexus-snapshots</id>-->
+<!--            <url>https://oss.sonatype.org/content/repositories/snapshots</url>-->
+<!--        </snapshotRepository>-->
+<!--        <repository>-->
+<!--            <id>sonatype-nexus-staging</id>-->
+<!--            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>-->
+<!--        </repository>-->
+<!--    </distributionManagement>-->
     <distributionManagement>
-        <snapshotRepository>
-            <id>sonatype-nexus-snapshots</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
         <repository>
-            <id>sonatype-nexus-staging</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>fraudmetrixRepo</id>
+            <url>http://maven.fraudmetrix.cn/nexus/content/repositories/releases/</url>
         </repository>
+        <snapshotRepository>
+            <id>fraudmetrixRepo</id>
+            <url>http://maven.fraudmetrix.cn/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
     </distributionManagement>
 </project>
