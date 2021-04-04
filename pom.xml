@@ -6,7 +6,7 @@
 
     <groupId>io.github.pj1987111</groupId>
     <artifactId>yisql_rest</artifactId>
-    <version>0.2.1</version>
+    <version>0.2.2</version>
 
     <dependencies>
         <dependency>

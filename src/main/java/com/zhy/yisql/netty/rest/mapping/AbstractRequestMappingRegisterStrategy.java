@@ -53,7 +53,7 @@ abstract class AbstractRequestMappingRegisterStrategy implements RequestMappingR
             Parameter[] ps = method.getParameters();
             if(ps.length > 0) {
                 // 得到所有参数名
-                String[] paramNames = getMethodParameterNamesByAsm4(clazz, method);
+                String[] paramNames = getMethodParameterNamesByAsm5(clazz, method);
                 for(int i = 0; i < ps.length; i++) {
                     ControllerMappingParameter cmp = new ControllerMappingParameter();
                     cmp.setDataType(ps[i].getType());
@@ -184,7 +184,7 @@ abstract class AbstractRequestMappingRegisterStrategy implements RequestMappingR
      * @param method
      * @return
      */
-    private String[] getMethodParameterNamesByAsm4(Class<?> clazz, final Method method) {  
+    private String[] getMethodParameterNamesByAsm5(Class<?> clazz, final Method method) {
         final Class<?>[] parameterTypes = method.getParameterTypes();  
         if (parameterTypes == null || parameterTypes.length == 0) {  
             return null;  
@@ -201,7 +201,7 @@ abstract class AbstractRequestMappingRegisterStrategy implements RequestMappingR
         InputStream is = clazz.getResourceAsStream(className);  
         try {  
             ClassReader classReader = new ClassReader(is);
-            classReader.accept(new ClassVisitor(Opcodes.ASM4) {
+            classReader.accept(new ClassVisitor(Opcodes.ASM5) {
                 @Override  
                 public MethodVisitor visitMethod(int access, String name, String desc, String signature, String[] exceptions) {
                     // 只处理指定的方法  
@@ -209,7 +209,7 @@ abstract class AbstractRequestMappingRegisterStrategy implements RequestMappingR
                     if (!method.getName().equals(name) || !Arrays.equals(argumentTypes, types)) {  
                         return null;  
                     }  
-                    return new MethodVisitor(Opcodes.ASM4) {
+                    return new MethodVisitor(Opcodes.ASM5) {
                         @Override  
                         public void visitLocalVariable(String name, String desc, String signature, Label start, Label end, int index) {
                             // 静态方法第一个参数就是方法的参数，如果是实例方法，第一个参数是this  
