@@ -3,7 +3,7 @@ package com.zhy.yisql.netty.annotation;
 /**
  * Http Request Method 枚举
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/16
  */
 public enum RequestMethodEnum {

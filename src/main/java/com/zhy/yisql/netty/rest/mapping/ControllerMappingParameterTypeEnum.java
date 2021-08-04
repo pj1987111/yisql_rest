@@ -3,7 +3,7 @@ package com.zhy.yisql.netty.rest.mapping;
 /**
  * 请求映射参数类型枚举
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/26
  */
 public enum ControllerMappingParameterTypeEnum {

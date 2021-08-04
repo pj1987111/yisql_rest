@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * 拦截器注册类
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/16
  */
 public final class InterceptorRegistry {

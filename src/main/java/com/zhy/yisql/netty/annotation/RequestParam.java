@@ -5,7 +5,7 @@ import java.lang.annotation.*;
 /**
  * Http 请求参数注解
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/16
  */
 @Target(ElementType.PARAMETER)

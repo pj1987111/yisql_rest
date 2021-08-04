@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 请求映射类
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/16
  */
 public final class ControllerMapping {

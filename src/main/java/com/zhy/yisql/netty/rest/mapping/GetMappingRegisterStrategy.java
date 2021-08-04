@@ -7,7 +7,7 @@ import java.lang.reflect.Method;
 /**
  * GET 请求映射注册策略类
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/16
  */
 public final class GetMappingRegisterStrategy extends AbstractRequestMappingRegisterStrategy implements RequestMappingRegisterStrategy {

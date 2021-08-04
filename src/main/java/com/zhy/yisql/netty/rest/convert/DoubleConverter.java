@@ -3,7 +3,7 @@ package com.zhy.yisql.netty.rest.convert;
 /**
  * 双精度转换器
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/16
  */
 final class DoubleConverter implements Converter<Double> {

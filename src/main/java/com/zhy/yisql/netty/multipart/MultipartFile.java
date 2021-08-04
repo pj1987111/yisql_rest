@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 上传文件类
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/5/11
  */
 public final class MultipartFile {

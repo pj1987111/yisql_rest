@@ -6,7 +6,7 @@ import com.zhy.yisql.netty.rest.HttpResponse;
 /**
  * 拦截器接口
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/23
  */
 public interface Interceptor {

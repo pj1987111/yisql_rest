@@ -11,7 +11,7 @@ import java.util.Map;
 /**
  * 请求信息类
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/16
  */
 public final class RequestInfo {

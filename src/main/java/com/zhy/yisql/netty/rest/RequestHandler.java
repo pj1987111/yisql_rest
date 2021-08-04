@@ -36,7 +36,7 @@ import static io.netty.handler.codec.http.HttpVersion.HTTP_1_1;
 /**
  * 请求处理器类
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/27
  */
 final class RequestHandler {

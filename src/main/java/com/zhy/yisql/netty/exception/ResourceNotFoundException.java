@@ -3,7 +3,7 @@ package com.zhy.yisql.netty.exception;
 /**
  * 资源未发现异常类
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/16
  */
 public class ResourceNotFoundException extends RuntimeException {

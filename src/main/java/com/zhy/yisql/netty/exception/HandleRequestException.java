@@ -3,7 +3,7 @@ package com.zhy.yisql.netty.exception;
 /**
  * 处理请求异常类
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/16
  */
 public final class HandleRequestException extends RuntimeException {

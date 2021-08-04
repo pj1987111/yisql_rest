@@ -17,7 +17,7 @@ import static io.netty.handler.codec.http.HttpVersion.HTTP_1_1;
 /**
  * Http 响应类
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/27
  */
 public final class HttpResponse {

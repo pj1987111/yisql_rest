@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Http 响应实体类
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/16
  */
 public final class ResponseEntity<T> {
@@ -232,7 +232,7 @@ public final class ResponseEntity<T> {
     /**
      * Http Response 构建器
      * 
-     * @author Leo
+     * @author hongyi.zhou
      */
     public static class ResponseBuilder {
 

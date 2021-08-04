@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Http 请求处理器
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/16
  */
 final class HttpRequestHandler extends SimpleChannelInboundHandler<FullHttpRequest> {

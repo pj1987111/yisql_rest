@@ -3,7 +3,7 @@ package com.zhy.yisql.netty.rest.mapping;
 /**
  * 控制器 Bean 类
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/16
  */
 public final class ControllerBean {

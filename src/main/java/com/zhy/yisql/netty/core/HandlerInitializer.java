@@ -17,7 +17,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * Netty Handler 初始化类
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/29
  */
 final class HandlerInitializer extends ChannelInitializer<SocketChannel> {

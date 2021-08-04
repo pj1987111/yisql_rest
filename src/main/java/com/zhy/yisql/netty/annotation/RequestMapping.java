@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * Http 请求映射类
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/16
  */
 @Retention(RetentionPolicy.RUNTIME)

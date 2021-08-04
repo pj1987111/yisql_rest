@@ -5,7 +5,7 @@ import io.netty.handler.codec.http.FullHttpRequest;
 
 /**
  * 跨域拦截器
- * @author Leo
+ * @author hongyi.zhou
  */
 public final class CorsInterceptor implements Interceptor {
 

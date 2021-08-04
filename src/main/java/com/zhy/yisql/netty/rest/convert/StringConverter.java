@@ -3,7 +3,7 @@ package com.zhy.yisql.netty.rest.convert;
 /**
  * 字符串转换器
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/16
  */
 final class StringConverter implements Converter<String> {

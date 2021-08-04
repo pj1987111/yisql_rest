@@ -3,7 +3,7 @@ package com.zhy.yisql.netty.rest.controller;
 /**
  * 异常处理器
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/16
  */
 public interface ExceptionHandler {

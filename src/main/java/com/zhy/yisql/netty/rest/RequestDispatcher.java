@@ -26,7 +26,7 @@ import static io.netty.handler.codec.http.HttpVersion.HTTP_1_1;
 /**
  * 请求分派器
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/27
  */
 public final class RequestDispatcher {

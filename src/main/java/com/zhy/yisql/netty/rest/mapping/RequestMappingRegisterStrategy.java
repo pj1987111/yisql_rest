@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 /**
  * 请求映射注册策略接口
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/16
  */
 public interface RequestMappingRegisterStrategy {

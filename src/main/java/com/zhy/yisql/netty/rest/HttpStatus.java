@@ -3,7 +3,7 @@ package com.zhy.yisql.netty.rest;
 /**
  * Http 状态枚举
  * 
- * @author Leo
+ * @author hongyi.zhou
  * @date 2018/3/16
  */
 public enum HttpStatus {
